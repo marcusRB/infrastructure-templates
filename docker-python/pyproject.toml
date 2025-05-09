@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "docker-app"
+version = "0.1.0"
+description = "Support multiple Python versions"
+authors = ["MarcusRB <mrussorb@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10 || ^3.11 || ^3.12 || ^3.13"
+boto3 = "*"
+google-cloud-storage = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
